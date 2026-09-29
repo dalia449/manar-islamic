@@ -1,0 +1,12 @@
+{
+  "name": "مَنار | MANAR - Islamic Digital Platform & Haramain Journey",
+  "description": "Your trusted guide for faith, knowledge, Quran, Hadith, Prayer, Qibla, and the journey to the Two Holy Mosques.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,276 @@
+import { QuranSurah } from '../types';
+
+export const SURAHS_LIST: QuranSurah[] = [
+  {
+    number: 1,
+    nameArabic: 'الفَاتِحَة',
+    nameEnglish: 'Al-Fatihah',
+    translationEnglish: 'The Opening',
+    revelationType: 'Meccan',
+    numberOfAyahs: 7,
+    juzStart: 1,
+    sampleAyahs: [
+      { numberInSurah: 1, textArabic: 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ', translationEnglish: 'In the name of Allah, the Entirely Merciful, the Especially Merciful.', audioUrl: 'https://cdn.islamic.network/quran/audio/128/ar.alafasy/1.mp3' },
+      { numberInSurah: 2, textArabic: 'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ', translationEnglish: '[All] praise is [due] to Allah, Lord of the worlds -', audioUrl: 'https://cdn.islamic.network/quran/audio/128/ar.alafasy/2.mp3' },
+      { numberInSurah: 3, textArabic: 'الرَّحْمَٰنِ الرَّحِيمِ', translationEnglish: 'The Entirely Merciful, the Especially Merciful,', audioUrl: 'https://cdn.islamic.network/quran/audio/128/ar.alafasy/3.mp3' },
+      { numberInSurah: 4, textArabic: 'مَالِكِ يَوْمِ الدِّينِ', translationEnglish: 'Sovereign of the Day of Recompense.', audioUrl: 'https://cdn.islamic.network/quran/audio/128/ar.alafasy/4.mp3' },
+      { numberInSurah: 5, textArabic: 'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ', translationEnglish: 'It is You we worship and You we ask for help.', audioUrl: 'https://cdn.islamic.network/quran/audio/128/ar.alafasy/5.mp3' },
+      { numberInSurah: 6, textArabic: 'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ', translationEnglish: 'Guide us to the straight path -', audioUrl: 'https://cdn.islamic.network/quran/audio/128/ar.alafasy/6.mp3' },
+      { numberInSurah: 7, textArabic: 'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ', translationEnglish: 'The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.', audioUrl: 'https://cdn.islamic.network/quran/audio/128/ar.alafasy/7.mp3' }
+    ]
+  },
+  {
+    number: 2,
+    nameArabic: 'البَقَرَة',
+    nameEnglish: 'Al-Baqarah',
+    translationEnglish: 'The Cow',
+    revelationType: 'Medinan',
+    numberOfAyahs: 286,
+    juzStart: 1,
+    sampleAyahs: [
+      { numberInSurah: 1, textArabic: 'الم', translationEnglish: 'Alif, Lam, Meem.' },
+      { numberInSurah: 2, textArabic: 'ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ', translationEnglish: 'This is the Book about which there is no doubt, a guidance for those conscious of Allah -' },
+      { numberInSurah: 186, textArabic: 'وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ', translationEnglish: 'And when My servants ask you concerning Me, indeed I am near. I respond to the invocation of the supplicant when he calls upon Me.' },
+      { numberInSurah: 196, textArabic: 'وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ', translationEnglish: 'And complete the Hajj and Umrah for Allah.' },
+      { numberInSurah: 255, textArabic: 'اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ', translationEnglish: 'Allah - there is no deity except Him, the Ever-Living, the Sustainer of [all] existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. (Ayat al-Kursi)' },
+      { numberInSurah: 285, textArabic: 'آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ', translationEnglish: 'The Messenger has believed in what was revealed to him from his Lord, and [so have] the believers.' }
+    ]
+  },
+  {
+    number: 3,
+    nameArabic: 'آل عِمْرَان',
+    nameEnglish: 'Ali \'Imran',
+    translationEnglish: 'Family of Imran',
+    revelationType: 'Medinan',
+    numberOfAyahs: 200,
+    juzStart: 3,
+    sampleAyahs: [
+      { numberInSurah: 96, textArabic: 'إِنَّ أَوَّلَ بَيْتٍ وُضِعَ لِلنَّاسِ لَلَّذِي بِبَكَّةَ مُبَارَكًا وَهُدًى لِّلْعَالَمِينَ', translationEnglish: 'Indeed, the first House [of worship] established for mankind was that at Bakkah [Makkah] - blessed and a guidance for the worlds.' },
+      { numberInSurah: 97, textArabic: 'فِيهِ آيَاتٌ بَيِّنَاتٌ مَّقَامُ إِبْرَاهِيمَ ۖ وَمَن دَخَلَهُ كَانَ آمِنًا ۗ وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا', translationEnglish: 'In it are clear signs [such as] the standing place of Abraham. And whoever enters it shall be safe. And [due] to Allah from the people is a pilgrimage to the House - for whoever is able to find thereto a way.' }
+    ]
+  },
+  {
+    number: 4,
+    nameArabic: 'النِّسَاء',
+    nameEnglish: 'An-Nisa',
+    translationEnglish: 'The Women',
+    revelationType: 'Medinan',
+    numberOfAyahs: 176,
+    juzStart: 4,
+    sampleAyahs: [
+      { numberInSurah: 1, textArabic: 'يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمُ الَّذِي خَلَقَكُم مِّن نَّفْسٍ وَاحِدَةٍ', translationEnglish: 'O mankind, fear your Lord, who created you from one soul and created from it its mate and dispersed from both of them many men and women.' }
+    ]
+  },
+  {
+    number: 5,
+    nameArabic: 'المَائِدَة',
+    nameEnglish: 'Al-Ma\'idah',
+    translationEnglish: 'The Table Spread',
+    revelationType: 'Medinan',
+    numberOfAyahs: 120,
+    juzStart: 6,
+    sampleAyahs: [
+      { numberInSurah: 2, textArabic: 'وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ ۖ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ', translationEnglish: 'And cooperate in righteousness and piety, but do not cooperate in sin and aggression.' }
+    ]
+  },
+  {
+    number: 22,
+    nameArabic: 'الحَجّ',
+    nameEnglish: 'Al-Hajj',
+    translationEnglish: 'The Pilgrimage',
+    revelationType: 'Medinan',
+    numberOfAyahs: 78,
+    juzStart: 17,
+    sampleAyahs: [
+      { numberInSurah: 27, textArabic: 'وَأَذِّن فِي النَّاسِ بِالْحَجِّ يَأْتُوكَ رِجَالًا وَعَلَىٰ كُلِّ ضَامِرٍ يَأْتِينَ مِن كُلِّ فَجٍّ عَمِيقٍ', translationEnglish: 'And proclaim to the people the Hajj [pilgrimage]; they will come to you on foot and on every lean camel; they will come from every distant pass -' },
+      { numberInSurah: 28, textArabic: 'لِّيَشْهَدُوا مَنَافِعَ لَهُمْ وَيَذْكُرُوا اسْمَ اللَّهِ فِي أَيَّامٍ مَّعْلُومَاتٍ', translationEnglish: 'That they may witness benefits for themselves and mention the name of Allah on known days over what He has provided for them of [sacrificial] animals.' }
+    ]
+  },
+  {
+    number: 36,
+    nameArabic: 'يس',
+    nameEnglish: 'Ya-Sin',
+    translationEnglish: 'Ya-Sin',
+    revelationType: 'Meccan',
+    numberOfAyahs: 83,
+    juzStart: 22,
+    sampleAyahs: [
+      { numberInSurah: 1, textArabic: 'يس', translationEnglish: 'Ya, Seen.' },
+      { numberInSurah: 2, textArabic: 'وَالْقُرْآنِ الْحَكِيمِ', translationEnglish: 'By the wise Qur\'an.' }
+    ]
+  },
+  {
+    number: 67,
+    nameArabic: 'المُلْك',
+    nameEnglish: 'Al-Mulk',
+    translationEnglish: 'The Sovereignty',
+    revelationType: 'Meccan',
+    numberOfAyahs: 30,
+    juzStart: 29,
+    sampleAyahs: [
+      { numberInSurah: 1, textArabic: 'تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ', translationEnglish: 'Blessed is He in whose hand is dominion, and He is over all things competent -' }
+    ]
+  },
+  {
+    number: 112,
+    nameArabic: 'الإِخْلَاص',
+    nameEnglish: 'Al-Ikhlas',
+    translationEnglish: 'The Sincerity',
+    revelationType: 'Meccan',
+    numberOfAyahs: 4,
+    juzStart: 30,
+    sampleAyahs: [
+      { numberInSurah: 1, textArabic: 'قُلْ هُوَ اللَّهُ أَحَدٌ', translationEnglish: 'Say, "He is Allah, [who is] One,' },
+      { numberInSurah: 2, textArabic: 'اللَّهُ الصَّمَدُ', translationEnglish: 'Allah, the Eternal Refuge.' },
+      { numberInSurah: 3, textArabic: 'لَمْ يَلِدْ وَلَمْ يُولَدْ', translationEnglish: 'He neither begets nor is born,' },
+      { numberInSurah: 4, textArabic: 'وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ', translationEnglish: 'Nor is there to Him any equivalent."' }
+    ]
+  },
+  {
+    number: 113,
+    nameArabic: 'الفَلَق',
+    nameEnglish: 'Al-Falaq',
+    translationEnglish: 'The Daybreak',
+    revelationType: 'Meccan',
+    numberOfAyahs: 5,
+    juzStart: 30,
+    sampleAyahs: [
+      { numberInSurah: 1, textArabic: 'قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ', translationEnglish: 'Say, "I seek refuge in the Lord of daybreak' }
+    ]
+  },
+  {
+    number: 114,
+    nameArabic: 'النَّاس',
+    nameEnglish: 'An-Nas',
+    translationEnglish: 'Mankind',
+    revelationType: 'Meccan',
+    numberOfAyahs: 6,
+    juzStart: 30,
+    sampleAyahs: [
+      { numberInSurah: 1, textArabic: 'قُلْ أَعُوذُ بِرَبِّ النَّاسِ', translationEnglish: 'Say, "I seek refuge in the Lord of mankind,' },
+      { numberInSurah: 2, textArabic: 'مَلِكِ النَّاسِ', translationEnglish: 'The Sovereign of mankind,' },
+      { numberInSurah: 3, textArabic: 'إِلَٰهِ النَّاسِ', translationEnglish: 'The God of mankind,' },
+      { numberInSurah: 4, textArabic: 'مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ', translationEnglish: 'From the evil of the retreating whisperer -' },
+      { numberInSurah: 5, textArabic: 'الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ', translationEnglish: 'Who whispers [evil] into the breasts of mankind -' },
+      { numberInSurah: 6, textArabic: 'مِنَ الْجِنَّةِ وَالنَّاسِ', translationEnglish: 'From among the jinn and mankind."' }
+    ]
+  }
+];
+
+// Complete 114 Surahs index for lookup
+export const ALL_114_SURAHS = [
+  { num: 1, ar: 'الفاتحة', en: 'Al-Fatihah', ayahs: 7, type: 'Meccan', juz: 1 },
+  { num: 2, ar: 'البقرة', en: 'Al-Baqarah', ayahs: 286, type: 'Medinan', juz: 1 },
+  { num: 3, ar: 'آل عمران', en: 'Ali \'Imran', ayahs: 200, type: 'Medinan', juz: 3 },
+  { num: 4, ar: 'النساء', en: 'An-Nisa', ayahs: 176, type: 'Medinan', juz: 4 },
+  { num: 5, ar: 'المائدة', en: 'Al-Ma\'idah', ayahs: 120, type: 'Medinan', juz: 6 },
+  { num: 6, ar: 'الأنعام', en: 'Al-An\'am', ayahs: 165, type: 'Meccan', juz: 7 },
+  { num: 7, ar: 'الأعراف', en: 'Al-A\'raf', ayahs: 206, type: 'Meccan', juz: 8 },
+  { num: 8, ar: 'الأنفال', en: 'Al-Anfal', ayahs: 75, type: 'Medinan', juz: 9 },
+  { num: 9, ar: 'التوبة', en: 'At-Tawbah', ayahs: 129, type: 'Medinan', juz: 10 },
+  { num: 10, ar: 'يونس', en: 'Yunus', ayahs: 109, type: 'Meccan', juz: 11 },
+  { num: 11, ar: 'هود', en: 'Hud', ayahs: 123, type: 'Meccan', juz: 11 },
+  { num: 12, ar: 'يوسف', en: 'Yusuf', ayahs: 111, type: 'Meccan', juz: 12 },
+  { num: 13, ar: 'الرعد', en: 'Ar-Ra\'d', ayahs: 43, type: 'Medinan', juz: 13 },
+  { num: 14, ar: 'إبراهيم', en: 'Ibrahim', ayahs: 52, type: 'Meccan', juz: 13 },
+  { num: 15, ar: 'الحجر', en: 'Al-Hijr', ayahs: 99, type: 'Meccan', juz: 14 },
+  { num: 16, ar: 'النحل', en: 'An-Nahl', ayahs: 128, type: 'Meccan', juz: 14 },
+  { num: 17, ar: 'الإسراء', en: 'Al-Isra', ayahs: 111, type: 'Meccan', juz: 15 },
+  { num: 18, ar: 'الكهف', en: 'Al-Kahf', ayahs: 110, type: 'Meccan', juz: 15 },
+  { num: 19, ar: 'مريم', en: 'Maryam', ayahs: 98, type: 'Meccan', juz: 16 },
+  { num: 20, ar: 'طه', en: 'Taha', ayahs: 135, type: 'Meccan', juz: 16 },
+  { num: 21, ar: 'الأنبياء', en: 'Al-Anbiya', ayahs: 112, type: 'Meccan', juz: 17 },
+  { num: 22, ar: 'الحج', en: 'Al-Hajj', ayahs: 78, type: 'Medinan', juz: 17 },
+  { num: 23, ar: 'المؤمنون', en: 'Al-Mu\'minun', ayahs: 118, type: 'Meccan', juz: 18 },
+  { num: 24, ar: 'النور', en: 'An-Nur', ayahs: 64, type: 'Medinan', juz: 18 },
+  { num: 25, ar: 'الفرقان', en: 'Al-Furqan', ayahs: 77, type: 'Meccan', juz: 18 },
+  { num: 26, ar: 'الشعراء', en: 'Ash-Shu\'ara', ayahs: 227, type: 'Meccan', juz: 19 },
+  { num: 27, ar: 'النمل', en: 'An-Naml', ayahs: 93, type: 'Meccan', juz: 19 },
+  { num: 28, ar: 'القصص', en: 'Al-Qasas', ayahs: 88, type: 'Meccan', juz: 20 },
+  { num: 29, ar: 'العنكبوت', en: 'Al-\'Ankabut', ayahs: 69, type: 'Meccan', juz: 20 },
+  { num: 30, ar: 'الروم', en: 'Ar-Rum', ayahs: 60, type: 'Meccan', juz: 21 },
+  { num: 31, ar: 'لقمان', en: 'Luqman', ayahs: 34, type: 'Meccan', juz: 21 },
+  { num: 32, ar: 'السجدة', en: 'As-Sajdah', ayahs: 30, type: 'Meccan', juz: 21 },
+  { num: 33, ar: 'الأحزاب', en: 'Al-Ahzab', ayahs: 73, type: 'Medinan', juz: 21 },
+  { num: 34, ar: 'سبأ', en: 'Saba', ayahs: 54, type: 'Meccan', juz: 22 },
+  { num: 35, ar: 'فاطر', en: 'Fatir', ayahs: 45, type: 'Meccan', juz: 22 },
+  { num: 36, ar: 'يس', en: 'Ya-Sin', ayahs: 83, type: 'Meccan', juz: 22 },
+  { num: 37, ar: 'الصافات', en: 'As-Saffat', ayahs: 182, type: 'Meccan', juz: 23 },
+  { num: 38, ar: 'ص', en: 'Sad', ayahs: 88, type: 'Meccan', juz: 23 },
+  { num: 39, ar: 'الزمر', en: 'Az-Zumar', ayahs: 75, type: 'Meccan', juz: 23 },
+  { num: 40, ar: 'غافر', en: 'Ghafir', ayahs: 85, type: 'Meccan', juz: 24 },
+  { num: 41, ar: 'فصلت', en: 'Fussilat', ayahs: 54, type: 'Meccan', juz: 24 },
+  { num: 42, ar: 'الشورى', en: 'Ash-Shura', ayahs: 53, type: 'Meccan', juz: 25 },
+  { num: 43, ar: 'الزخرف', en: 'Az-Zukhruf', ayahs: 89, type: 'Meccan', juz: 25 },
+  { num: 44, ar: 'الدخان', en: 'Ad-Dukhan', ayahs: 59, type: 'Meccan', juz: 25 },
+  { num: 45, ar: 'الجاثية', en: 'Al-Jathiyah', ayahs: 37, type: 'Meccan', juz: 25 },
+  { num: 46, ar: 'الأحقاف', en: 'Al-Ahqaf', ayahs: 35, type: 'Meccan', juz: 26 },
+  { num: 47, ar: 'محمد', en: 'Muhammad', ayahs: 38, type: 'Medinan', juz: 26 },
+  { num: 48, ar: 'الفتح', en: 'Al-Fath', ayahs: 29, type: 'Medinan', juz: 26 },
+  { num: 49, ar: 'الحجرات', en: 'Al-Hujurat', ayahs: 18, type: 'Medinan', juz: 26 },
+  { num: 50, ar: 'ق', en: 'Qaf', ayahs: 45, type: 'Meccan', juz: 26 },
+  { num: 51, ar: 'الذاريات', en: 'Adh-Dhariyat', ayahs: 60, type: 'Meccan', juz: 26 },
+  { num: 52, ar: 'الطور', en: 'At-Tur', ayahs: 49, type: 'Meccan', juz: 27 },
+  { num: 53, ar: 'النجم', en: 'An-Najm', ayahs: 62, type: 'Meccan', juz: 27 },
+  { num: 54, ar: 'القمر', en: 'Al-Qamar', ayahs: 55, type: 'Meccan', juz: 27 },
+  { num: 55, ar: 'الرحمن', en: 'Ar-Rahman', ayahs: 78, type: 'Medinan', juz: 27 },
+  { num: 56, ar: 'الواقعة', en: 'Al-Waqi\'ah', ayahs: 96, type: 'Meccan', juz: 27 },
+  { num: 57, ar: 'الحديد', en: 'Al-Hadid', ayahs: 29, type: 'Medinan', juz: 27 },
+  { num: 58, ar: 'المجادلة', en: 'Al-Mujadila', ayahs: 22, type: 'Medinan', juz: 28 },
+  { num: 59, ar: 'الحشر', en: 'Al-Hashr', ayahs: 24, type: 'Medinan', juz: 28 },
+  { num: 60, ar: 'الممتحنة', en: 'Al-Mumtahanah', ayahs: 13, type: 'Medinan', juz: 28 },
+  { num: 61, ar: 'الصف', en: 'As-Saff', ayahs: 14, type: 'Medinan', juz: 28 },
+  { num: 62, ar: 'الجمعة', en: 'Al-Jumu\'ah', ayahs: 11, type: 'Medinan', juz: 28 },
+  { num: 63, ar: 'المنافقون', en: 'Al-Munafiqun', ayahs: 11, type: 'Medinan', juz: 28 },
+  { num: 64, ar: 'التغابن', en: 'At-Taghabun', ayahs: 18, type: 'Medinan', juz: 28 },
+  { num: 65, ar: 'الطلاق', en: 'At-Talaq', ayahs: 12, type: 'Medinan', juz: 28 },
+  { num: 66, ar: 'التحريم', en: 'At-Tahrim', ayahs: 12, type: 'Medinan', juz: 28 },
+  { num: 67, ar: 'الملك', en: 'Al-Mulk', ayahs: 30, type: 'Meccan', juz: 29 },
+  { num: 68, ar: 'القلم', en: 'Al-Qalam', ayahs: 52, type: 'Meccan', juz: 29 },
+  { num: 69, ar: 'الحاقة', en: 'Al-Haqqah', ayahs: 52, type: 'Meccan', juz: 29 },
+  { num: 70, ar: 'المعارج', en: 'Al-Ma\'arij', ayahs: 44, type: 'Meccan', juz: 29 },
+  { num: 71, ar: 'نوح', en: 'Nuh', ayahs: 28, type: 'Meccan', juz: 29 },
+  { num: 72, ar: 'الجن', en: 'Al-Jinn', ayahs: 28, type: 'Meccan', juz: 29 },
+  { num: 73, ar: 'المزمل', en: 'Al-Muzzammil', ayahs: 20, type: 'Meccan', juz: 29 },
+  { num: 74, ar: 'المدثر', en: 'Al-Muddaththir', ayahs: 56, type: 'Meccan', juz: 29 },
+  { num: 75, ar: 'القيامة', en: 'Al-Qiyamah', ayahs: 40, type: 'Meccan', juz: 29 },
+  { num: 76, ar: 'الإنسان', en: 'Al-Insan', ayahs: 31, type: 'Medinan', juz: 29 },
+  { num: 77, ar: 'المرسلات', en: 'Al-Mursalat', ayahs: 50, type: 'Meccan', juz: 29 },
+  { num: 78, ar: 'النبأ', en: 'An-Naba', ayahs: 40, type: 'Meccan', juz: 30 },
+  { num: 79, ar: 'النازعات', en: 'An-Nazi\'at', ayahs: 46, type: 'Meccan', juz: 30 },
+  { num: 80, ar: 'عبس', en: '\'Abasa', ayahs: 42, type: 'Meccan', juz: 30 },
+  { num: 81, ar: 'التكوير', en: 'At-Takwir', ayahs: 29, type: 'Meccan', juz: 30 },
+  { num: 82, ar: 'الانفطار', en: 'Al-Infitar', ayahs: 19, type: 'Meccan', juz: 30 },
+  { num: 83, ar: 'المطففين', en: 'Al-Mutaffifin', ayahs: 36, type: 'Meccan', juz: 30 },
+  { num: 84, ar: 'الانشقاق', en: 'Al-Inshiqaq', ayahs: 25, type: 'Meccan', juz: 30 },
+  { num: 85, ar: 'البروج', en: 'Al-Buruj', ayahs: 22, type: 'Meccan', juz: 30 },
+  { num: 86, ar: 'الطارق', en: 'At-Tariq', ayahs: 17, type: 'Meccan', juz: 30 },
+  { num: 87, ar: 'الأعلى', en: 'Al-A\'la', ayahs: 19, type: 'Meccan', juz: 30 },
+  { num: 88, ar: 'الغاشية', en: 'Al-Ghashiyah', ayahs: 26, type: 'Meccan', juz: 30 },
+  { num: 89, ar: 'الفجر', en: 'Al-Fajr', ayahs: 30, type: 'Meccan', juz: 30 },
+  { num: 90, ar: 'البلد', en: 'Al-Balad', ayahs: 20, type: 'Meccan', juz: 30 },
+  { num: 91, ar: 'الشمس', en: 'Ash-Shams', ayahs: 15, type: 'Meccan', juz: 30 },
+  { num: 92, ar: 'الليل', en: 'Al-Layl', ayahs: 21, type: 'Meccan', juz: 30 },
+  { num: 93, ar: 'الضحى', en: 'Ad-Duhaa', ayahs: 11, type: 'Meccan', juz: 30 },
+  { num: 94, ar: 'الشرح', en: 'Ash-Sharh', ayahs: 8, type: 'Meccan', juz: 30 },
+  { num: 95, ar: 'التين', en: 'At-Tin', ayahs: 8, type: 'Meccan', juz: 30 },
+  { num: 96, ar: 'العلق', en: 'Al-\'Alaq', ayahs: 19, type: 'Meccan', juz: 30 },
+  { num: 97, ar: 'القدر', en: 'Al-Qadr', ayahs: 5, type: 'Meccan', juz: 30 },
+  { num: 98, ar: 'البينة', en: 'Al-Bayyinah', ayahs: 8, type: 'Medinan', juz: 30 },
+  { num: 99, ar: 'الزلزلة', en: 'Az-Zalzalah', ayahs: 8, type: 'Medinan', juz: 30 },
+  { num: 100, ar: 'العاديات', en: 'Al-\'Adiyat', ayahs: 11, type: 'Meccan', juz: 30 },
+  { num: 101, ar: 'القارعة', en: 'Al-Qari\'ah', ayahs: 11, type: 'Meccan', juz: 30 },
+  { num: 102, ar: 'التكاثر', en: 'At-Takathur', ayahs: 8, type: 'Meccan', juz: 30 },
+  { num: 103, ar: 'العصر', en: 'Al-\'Asr', ayahs: 3, type: 'Meccan', juz: 30 },
+  { num: 104, ar: 'الهمزة', en: 'Al-Humazah', ayahs: 9, type: 'Meccan', juz: 30 },
+  { num: 105, ar: 'الفيل', en: 'Al-Fil', ayahs: 5, type: 'Meccan', juz: 30 },
+  { num: 106, ar: 'قريش', en: 'Quraysh', ayahs: 4, type: 'Meccan', juz: 30 },
+  { num: 107, ar: 'الماعون', en: 'Al-Ma\'un', ayahs: 7, type: 'Meccan', juz: 30 },
+  { num: 108, ar: 'الكوثر', en: 'Al-Kawthar', ayahs: 3, type: 'Meccan', juz: 30 },
+  { num: 109, ar: 'الكافرون', en: 'Al-Kafirun', ayahs: 6, type: 'Meccan', juz: 30 },
+  { num: 110, ar: 'النصر', en: 'An-Nasr', ayahs: 3, type: 'Medinan', juz: 30 },
+  { num: 111, ar: 'المسد', en: 'Al-Masad', ayahs: 5, type: 'Meccan', juz: 30 },
+  { num: 112, ar: 'الإخلاص', en: 'Al-Ikhlas', ayahs: 4, type: 'Meccan', juz: 30 },
+  { num: 113, ar: 'الفلق', en: 'Al-Falaq', ayahs: 5, type: 'Meccan', juz: 30 },
+  { num: 114, ar: 'الناس', en: 'An-Nas', ayahs: 6, type: 'Meccan', juz: 30 }
+];

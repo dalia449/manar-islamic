@@ -1,0 +1,133 @@
+import { HadithItem } from '../types';
+
+export const AUTHENTIC_HADITHS: HadithItem[] = [
+  {
+    id: 'bukhari-1',
+    collection: 'Bukhari',
+    bookNumber: 1,
+    hadithNumber: 1,
+    category: 'Faith',
+    narrator: 'Umar ibn al-Khattab (may Allah be pleased with him)',
+    textArabic: 'إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى دُنْيَا يُصِيبُهَا أَوْ إِلَى امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ.',
+    textTranslation: 'Actions are judged by motives, so each man will have what he intended. Thus, he whose migration was to Allah and His Messenger, his migration is to Allah and His Messenger; but he whose migration was for some worldly benefit or to take a woman in marriage, his migration be to what he migrated for.',
+    grade: 'Sahih',
+    scholarGrading: 'Agreed upon (Muttafaqun \'Alayh)',
+    sourceUrl: 'https://sunnah.com/bukhari:1'
+  },
+  {
+    id: 'bukhari-71',
+    collection: 'Bukhari',
+    bookNumber: 3,
+    hadithNumber: 71,
+    category: 'Knowledge',
+    narrator: 'Muawiyah (may Allah be pleased with him)',
+    textArabic: 'مَنْ يُرِدِ اللَّهُ بِهِ خَيْرًا يُفَقِّهْهُ فِي الدِّينِ.',
+    textTranslation: 'If Allah wants to do good to a person, He makes him comprehend the religion.',
+    grade: 'Sahih',
+    scholarGrading: 'Agreed upon',
+    sourceUrl: 'https://sunnah.com/bukhari:71'
+  },
+  {
+    id: 'bukhari-1773',
+    collection: 'Bukhari',
+    bookNumber: 26,
+    hadithNumber: 1773,
+    category: 'Hajj & Umrah',
+    narrator: 'Abu Hurairah (may Allah be pleased with him)',
+    textArabic: 'الْعُمْرَةُ إِلَى الْعُمْرَةِ كَفَّارَةٌ لِمَا بَيْنَهُمَا، وَالْحَجُّ الْمَبْرُورُ لَيْسَ لَهُ جَزَاءٌ إِلاَّ الْجَنَّةُ.',
+    textTranslation: 'An Umrah to another Umrah is an expiation for what was committed between them, and the reward of an accepted Hajj (Mabrur) is nothing less than Paradise.',
+    grade: 'Sahih',
+    scholarGrading: 'Sahih Bukhari & Sahih Muslim',
+    sourceUrl: 'https://sunnah.com/bukhari:1773'
+  },
+  {
+    id: 'bukhari-1521',
+    collection: 'Bukhari',
+    bookNumber: 25,
+    hadithNumber: 1521,
+    category: 'Hajj & Umrah',
+    narrator: 'Abu Hurairah (may Allah be pleased with him)',
+    textArabic: 'مَنْ حَجَّ لِلَّهِ فَلَمْ يَرْفُثْ وَلَمْ يَفْسُقْ رَجَعَ كَيَوْمِ وَلَدَتْهُ أُمُّهُ.',
+    textTranslation: 'Whoever performs Hajj for Allah\'s pleasure and does not commit obscenity nor sins, will return (free from sin) as he was on the day his mother bore him.',
+    grade: 'Sahih',
+    scholarGrading: 'Sahih Bukhari',
+    sourceUrl: 'https://sunnah.com/bukhari:1521'
+  },
+  {
+    id: 'bukhari-1189',
+    collection: 'Bukhari',
+    bookNumber: 20,
+    hadithNumber: 1189,
+    category: 'Hajj & Umrah',
+    narrator: 'Abu Hurairah (may Allah be pleased with him)',
+    textArabic: 'لاَ تُشَدُّ الرِّحَالُ إِلاَّ إِلَى ثَلاَثَةِ مَسَاجِدَ الْمَسْجِدِ الْحَرَامِ، وَمَسْجِدِ الرَّسُولِ صلى الله عليه وسلم، وَمَسْجِدِ الأَقْصَى.',
+    textTranslation: 'Do not set out on a journey except for three Mosques: Al-Masjid al-Haram, the Mosque of Allah\'s Messenger (peace be upon him), and Al-Masjid al-Aqsa.',
+    grade: 'Sahih',
+    scholarGrading: 'Muttafaqun \'Alayh',
+    sourceUrl: 'https://sunnah.com/bukhari:1189'
+  },
+  {
+    id: 'bukhari-1195',
+    collection: 'Bukhari',
+    bookNumber: 20,
+    hadithNumber: 1195,
+    category: 'Hajj & Umrah',
+    narrator: 'Abu Hurairah (may Allah be pleased with him)',
+    textArabic: 'صَلاَةٌ فِي مَسْجِدِي هَذَا خَيْرٌ مِنْ أَلْفِ صَلاَةٍ فِيمَا سِوَاهُ إِلاَّ الْمَسْجِدَ الْحَرَامَ.',
+    textTranslation: 'One prayer in my mosque is better than one thousand prayers anywhere else, except for Al-Masjid al-Haram.',
+    grade: 'Sahih',
+    scholarGrading: 'Sahih Bukhari',
+    sourceUrl: 'https://sunnah.com/bukhari:1195'
+  },
+  {
+    id: 'bukhari-1196',
+    collection: 'Bukhari',
+    bookNumber: 20,
+    hadithNumber: 1196,
+    category: 'Hajj & Umrah',
+    narrator: 'Abdullah ibn Zayd al-Mazini (may Allah be pleased with him)',
+    textArabic: 'مَا بَيْنَ بَيْتِي وَمِنْبَرِي رَوْضَةٌ مِنْ رِيَاضِ الْجَنَّةِ.',
+    textTranslation: 'Between my house and my pulpit lies a garden from the gardens of Paradise (Rawdah).',
+    grade: 'Sahih',
+    scholarGrading: 'Sahih Bukhari & Sahih Muslim',
+    sourceUrl: 'https://sunnah.com/bukhari:1196'
+  },
+  {
+    id: 'muslim-223',
+    collection: 'Muslim',
+    bookNumber: 2,
+    hadithNumber: 223,
+    category: 'Purification',
+    narrator: 'Abu Malik al-Ash\'ari (may Allah be pleased with him)',
+    textArabic: 'الطُّهُورُ شَطْرُ الإِيمَانِ، وَالْحَمْدُ لِلَّهِ تَمْلأُ الْمِيزَانَ، وَسُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ تَمْلآنِ مَا بَيْنَ السَّمَاوَاتِ وَالأَرْضِ، وَالصَّلاَةُ نُورٌ.',
+    textTranslation: 'Purity is half of iman (faith). Al-hamdu lillah (praise be to Allah) fills the scale, and subhan-Allah and al-hamdu lillah fill up what is between the heavens and the earth, and prayer is a light.',
+    grade: 'Sahih',
+    scholarGrading: 'Sahih Muslim',
+    sourceUrl: 'https://sunnah.com/muslim:223'
+  },
+  {
+    id: 'nawawi-18',
+    collection: 'Nawawi 40',
+    hadithNumber: 18,
+    category: 'Manners',
+    narrator: 'Abu Dharr and Mu\'adh ibn Jabal (may Allah be pleased with them)',
+    textArabic: 'اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ، وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا، وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ.',
+    textTranslation: 'Fear Allah wherever you may be, and follow up an evil deed with a good one which will wipe it out, and behave well towards the people.',
+    grade: 'Hasan',
+    scholarGrading: 'Jami\' at-Tirmidhi (1987), graded Hasan',
+    sourceUrl: 'https://sunnah.com/nawawi40:18'
+  },
+  {
+    id: 'abu-dawud-498',
+    collection: 'Abu Dawud',
+    bookNumber: 2,
+    hadithNumber: 498,
+    category: 'Prayer',
+    narrator: 'Malik ibn al-Huwayrith (may Allah be pleased with him)',
+    textArabic: 'صَلُّوا كَمَا رَأَيْتُمُونِي أُصَلِّي.',
+    textTranslation: 'Pray as you have seen me praying.',
+    grade: 'Sahih',
+    scholarGrading: 'Sahih al-Bukhari 631, Sunan Abi Dawud',
+    sourceUrl: 'https://sunnah.com/abudawud:498'
+  }
+];
